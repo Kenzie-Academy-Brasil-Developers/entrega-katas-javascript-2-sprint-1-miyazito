@@ -28,14 +28,20 @@ function power(num1, num2){
     } return result
 }
 // descomente a linha seguinte para testar sua função
-// console.assert(power(3, 4) === 81, 'A função power não está funcionando como esperado');
+ console.assert(power(3, 4) === 81, 'A função power não está funcionando como esperado');
 
 
 // comece a criar a sua função factorial na linha abaixo
 
-
+function factorial(num){
+    let fact = 1
+    if(num !== 0 && num !== 1){
+        fact = multiply(num, factorial(num - 1))
+    }
+    return fact
+}
 // descomente a linha seguinte para testar sua função
-// console.assert(factorial(5) === 120, 'A função factorial não está funcionando como esperado');
+ console.assert(factorial(5) === 120, 'A função factorial não está funcionando como esperado');
 
 
 /**
