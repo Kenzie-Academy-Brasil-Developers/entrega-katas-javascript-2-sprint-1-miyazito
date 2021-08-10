@@ -7,9 +7,11 @@
 
 // comece a criar a sua função multiply na linha abaixo
 
-
+multiply(num1, num2){
+   return num1 * num2
+}
 // descomente a linha seguinte para testar sua função
-// console.assert(multiply(4, 6) === 24, 'A função multiply não está funcionando como esperado');
+ console.assert(multiply(4, 6) === 24, 'A função multiply não está funcionando como esperado');
 
 
 // comece a criar a sua função power na linha abaixo
