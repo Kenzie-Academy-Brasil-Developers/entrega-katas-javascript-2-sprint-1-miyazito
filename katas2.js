@@ -21,7 +21,12 @@ function multiply(num1, num2){
 
 // comece a criar a sua função power na linha abaixo
 
-
+function power(num1, num2){
+    let result = 1
+    for(let i = 0; i < num2; i++){
+        result *= multiply(num1,1)
+    } return result
+}
 // descomente a linha seguinte para testar sua função
 // console.assert(power(3, 4) === 81, 'A função power não está funcionando como esperado');
 
