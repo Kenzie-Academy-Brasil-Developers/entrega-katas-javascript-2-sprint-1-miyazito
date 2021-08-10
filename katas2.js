@@ -9,8 +9,11 @@ function add (num1, num2){
 
 // comece a criar a sua função multiply na linha abaixo
 
-multiply(num1, num2){
-   return num1 * num2
+function multiply(num1, num2){
+   let product = 0
+   for(let i = 1; i <= num2; i++){
+      product += add(num1, 0)}
+       return product
 }
 // descomente a linha seguinte para testar sua função
  console.assert(multiply(4, 6) === 24, 'A função multiply não está funcionando como esperado');
