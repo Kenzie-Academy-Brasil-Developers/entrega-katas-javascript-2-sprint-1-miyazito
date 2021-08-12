@@ -10,10 +10,11 @@ function add (num1, num2){
 // comece a criar a sua função multiply na linha abaixo
 
 function multiply(num1, num2){
-   let product = 0
-   for(let i = 1; i <= num2; i++){
-      product += add(num1, 0)}
-       return product
+    let result = 0
+    for(let i = 0; i < num2; i++){
+        result = add(num1, result)
+    }
+    return result
 }
 // descomente a linha seguinte para testar sua função
  console.assert(multiply(4, 6) === 24, 'A função multiply não está funcionando como esperado');
@@ -24,7 +25,7 @@ function multiply(num1, num2){
 function power(num1, num2){
     let result = 1
     for(let i = 0; i < num2; i++){
-        result *= multiply(num1,1)
+        result = multiply
     } return result
 }
 // descomente a linha seguinte para testar sua função
