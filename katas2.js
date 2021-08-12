@@ -25,7 +25,7 @@ function multiply(num1, num2){
 function power(num1, num2){
     let result = 1
     for(let i = 0; i < num2; i++){
-        result = multiply
+        result = multiply(result, num1)
     } return result
 }
 // descomente a linha seguinte para testar sua função
