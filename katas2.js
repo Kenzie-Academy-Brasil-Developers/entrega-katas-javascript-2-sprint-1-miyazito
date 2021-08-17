@@ -51,6 +51,19 @@ function factorial(num){
 
 // crie a função fibonacci
 
+function fibonacci(num){
+    let resultado = 0
+
+    if(num === 1){
+        resultado = 0
+    } else if(num === 2){
+        resultado = 1
+    } else {
+        resultado = add(fibonacci(num - 1), fibonacci(num - 2))
+    }
+    return resultado
+
+}
 
 // descomente a linha seguinte para testar sua função
 // console.assert(fibonacci(7) === 13, 'A função fibonacci não está funcionando como esperado');
