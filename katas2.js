@@ -55,7 +55,7 @@ function fibonacci(num){
     let resultado = 0
 
     if(num === 1){
-        resultado = 0
+        resultado = 1
     } else if(num === 2){
         resultado = 1
     } else {
